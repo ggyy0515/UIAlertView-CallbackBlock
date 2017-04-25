@@ -1,5 +1,6 @@
-# UIAlertView-CallbackBlock
+# UIAlertView+CallbackBlock
 a init method with a callback block
+
 
 ```objc
 /**
@@ -17,4 +18,8 @@ a init method with a callback block 带回调block的构造器
                 callbackBlock:(void(^)(UIAlertView * alertView, NSInteger buttonIndex))btnClickBlock
             cancelButtonTitle:(NSString *)cancelButtonTitle
             otherButtonTitles:(NSString *)otherButtonTitle, ... NS_REQUIRES_NIL_TERMINATION;
+```
+
+```objc
+pod "UIAlertView+CallbackBlock" 
 ```
