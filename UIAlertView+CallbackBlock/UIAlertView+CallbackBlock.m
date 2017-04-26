@@ -19,7 +19,7 @@
 
 @end
 
-@implementation UIAlertView (CompleteBlock)
+@implementation UIAlertView (CallbackBlock)
 
 
 - (void (^)())callbackBlock{
